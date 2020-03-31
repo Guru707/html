@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    height: 100%;
+}
+
+.main-element{
+        width: 100%;
+    background: rgb(174,204,234);
+    background-image: url(../images/bg-gradient.jpg);
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;}
+.header-element{
+    background:#5961aa;
+    padding: 20px 0px;
+    text-align: center;
+}
+.aniamation-element{
+    width: 600px;
+    margin: 0px auto;
+    position: absolute;
+    top:60%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    height:500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    
+    
+}
+.aniamation-block{
+    position: relative;
+}
+.header-block{
+    padding: 0px;
+    margin: 0px;
+}
+
+.image-block
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.clockwiseSpin img{
+    -webkit-animation: clockwiseSpin  20s infinite alternate;
+    animation: clockwiseSpin  20s infinite alternate;
+}
+
+.antiClockwiseSpin img{
+    -webkit-animation: antiClockwiseSpin 20s infinite alternate;
+    animation: antiClockwiseSpin 20s infinite alternate;
+}
+.image-fix
+{
+    max-width: 100%;
+}
+@keyframes antiClockwiseSpin {
+	0%  {transform: rotate(360deg);}
+	100% {transform: rotate(0deg);}	
+}
+@keyframes clockwiseSpin  {
+	0%  {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}	
+}

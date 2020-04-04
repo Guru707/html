@@ -34,13 +34,14 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
-    overflow: hidden;
-    
-    
+    overflow: hidden;     
 }
-.aniamation-block{
-    position: relative;
-}
+ .animation-block{
+      position: relative;
+    width: 100%;
+    height: 100%;
+    }
+
 .header-block{
     padding: 0px;
     margin: 0px;
@@ -132,3 +133,100 @@ body{
       .width-700{
           max-width:700px;
       }
+
+.list-block{
+  position: relative;
+}
+.listing-block{
+  position: absolute;
+  transition: 0.3s ease-in-out;
+   width: 200px;
+    height: 200px;
+}
+.listing-block a{
+  position: absolute;
+  color:#fff;
+   width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+}
+.shape-one{
+ left: 0;
+    clip-path: polygon(70% 57%, 0 66%, 19% 100%);
+    top: 145px;
+    display: inline-block;
+   
+    background: rgba(40, 52, 138, 0.80);
+}
+.shape-one a{
+     
+    bottom: 35px;
+    left: 25px;
+    
+}
+.shape-one:hover{
+  clip-path: polygon(100% 57%, 0 66%, 19% 100%);
+   background: rgba(40, 52, 138, 1);
+}
+
+.shape-two{
+    clip-path: polygon(2% 41%, 45% 81%, 45% 39%);
+        background: rgba(206, 214, 109, 0.80);
+    left: 180px;
+    top: -50px;
+}
+.shape-two a{
+      left: 28px;
+    bottom: 90px;
+}
+.shape-two:hover{
+ clip-path: polygon(2% 41%, 45% 100%, 45% 39%);
+  background: rgba(206, 214, 109, 1);
+}
+.shape-three{
+  clip-path: polygon(98% 32%, 86% 55%, 25% 46%, 66% 15%);
+  background: rgba(64, 190, 219, 0.80);
+       right: 64px;
+    top: 70px;
+
+}
+.shape-three a {
+    right: 16px;
+    bottom: 106px;
+    text-align: right;
+}
+.shape-three:hover{
+ clip-path: polygon(98% 32%, 86% 55%, 25% 80%, 66% 15%);
+ background: rgba(64, 190, 219,1);
+}
+.shape-fourth{
+  clip-path: polygon(86% 84%, 9% 83%, 24% 51%, 70% 63%);
+  background: rgba(243, 207, 103, 0.80);
+    right: 20px;
+    top: 157px;
+
+}
+.shape-fourth:hover{
+       clip-path: polygon(86% 84%, 18% 85%, 29% 44%, 60% 56%);
+       background: rgba(243, 207, 103, 1);
+}
+.shape-fourth a {
+      right: 15px;
+    bottom: 42px;
+    text-align: center;
+}
+.shape-five{
+      clip-path: polygon(66% 82%, 5% 83%, 32% 50%, 39% 50%);
+        background: rgba(138, 30, 116, 0.8);
+    right: 160px;
+    top: 280px;
+}
+.shape-five:hover{
+   clip-path: polygon(86% 84%, 9% 83%, 24% 51%, 70% 63%);
+   background: rgba(138, 30, 116, 1);
+}
+.shape-five a {
+      right: 15px;
+    bottom: 42px;
+    text-align: center;
+}

@@ -5,8 +5,14 @@ body{
     height: 100%;
     font-family: 'Futura Bk BT';
 }
+ul,li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
 .font-18{
     font-size:18px;
+    margin-bottom: 0px;
 }
 .main-element{
         width: 100%;
@@ -127,9 +133,15 @@ body{
         border-left:5px solid #5963a3;
         padding: 40px 0px;
       }
-      .mr-54{
-          margin-left: 54px;
+      .ml-9{
+          margin-left: 9px;
       }
+      .ml-33{
+          margin-left: 33px;
+        }
+        .ml-54{
+            margin-left: 54px;
+        }
       .width-700{
           max-width:700px;
       }
@@ -229,4 +241,16 @@ body{
         right: 26px;
     bottom: 36px;
     text-align: center;
+}
+
+/* servicepage */
+.list-block li{
+    font-size: 24px;
+    line-height: 40px;
+}
+.vertical-boader{
+    height: 100%;
+    width: 3px;
+    background: #5963a3;
+    margin: 0px auto;
 }

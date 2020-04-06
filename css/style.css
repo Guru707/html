@@ -95,7 +95,7 @@ input,button,textarea,button:focus,textarea:focus{
     transform-origin: center;
 }
 
-.antiClockwiseSpin img{
+ image{
     -webkit-animation: antiClockwiseSpin 20s infinite linear;
     animation: antiClockwiseSpin 20s infinite linear;
         transform-box: fill-box;
@@ -116,16 +116,20 @@ input,button,textarea,button:focus,textarea:focus{
 }
 .bg-element{
     background-color: #f2f4f6;
-   
-    background-image: url(../images/bottom-img.png);
+   position: absolute;
+   width:100%;
+   height: 100%;
+     background-image: url(../2-circle.svg);
     background-repeat: no-repeat;
     background-position: 85% 110%;
+    background-size: 270px;
 }
-@media(min-width:767px){
+/* @media(min-width:767px){
     .bg-element{
         height: 100vh;
     }
-}
+} */
+
 
 .svg-icon{
         width: 200px;
@@ -223,13 +227,19 @@ input,button,textarea,button:focus,textarea:focus{
   clip-path: polygon(100% 57%, 0 66%, 19% 100%);
    background: rgba(40, 52, 138, 1);
 }
-
 .shape-two{
     clip-path: polygon(2% 41%, 45% 81%, 45% 39%);
         background: rgba(206, 214, 109, 0.80);
-    left: 180px;
-    top: -50px;
+    left: 60px;
+    top: 12px;
 }
+@media(min-width:767px){
+    .shape-two{
+        left: 180px;
+        top: -50px;
+    }
+}
+
 .shape-two a{
       left: 28px;
     bottom: 90px;
@@ -241,9 +251,15 @@ input,button,textarea,button:focus,textarea:focus{
 .shape-three{
   clip-path: polygon(98% 32%, 86% 55%, 25% 46%, 66% 15%);
   background: rgba(64, 190, 219, 0.80);
-       right: 64px;
-    top: 70px;
+  right: 50px;
+    top: 45px;
 
+}
+@media(min-width:767px){
+    .shape-three{
+        right: 64px;
+        top: 70px;    
+    }
 }
 .shape-three a {
     right: 18px;
@@ -257,9 +273,15 @@ input,button,textarea,button:focus,textarea:focus{
 .shape-fourth{
   clip-path: polygon(86% 84%, 9% 83%, 24% 51%, 70% 63%);
   background: rgba(243, 207, 103, 0.80);
-    right: 20px;
-    top: 157px;
+     right: -13px;
+    top: 120px;
 
+}
+@media(min-width:767px){
+    .shape-fourth{
+        right: 20px;
+        top: 157px;  
+    }
 }
 .shape-fourth:hover{
        clip-path: polygon(86% 84%, 18% 85%, 29% 44%, 60% 56%);
@@ -273,8 +295,15 @@ input,button,textarea,button:focus,textarea:focus{
 .shape-five{
       clip-path: polygon(73% 82%, 5% 83%, 32% 50%, 39% 50%);
         background: rgba(138, 30, 116, 0.8);
-    right: 160px;
-    top: 280px;
+    
+    right: 70px;
+    top: 245px;
+}
+@media(min-width:767px){
+    .shape-five{
+        right: 160px;
+        top: 280px;
+    }
 }
 .shape-five:hover{
    clip-path: polygon(86% 84%, 9% 83%, 24% 51%, 70% 63%);
@@ -337,6 +366,19 @@ input,button,textarea,button:focus,textarea:focus{
 }
 
 /* contact-page */
+.
+.contact-bg{
+    height:auto;
+}
+@media(min-width:767px){
+    .contact-bg{
+        height:100%;
+    }   
+}
+.contact-form{
+    position: relative;
+    z-index: 99;
+}
 .social-list
 {
     display:flex;
@@ -416,3 +458,28 @@ input,button,textarea,button:focus,textarea:focus{
     right:-10px;
     top:5px;
 }
+/* .animation-clock{
+    position: absolute;
+    bottom: 0px;
+    right:150px;
+    width:250px;
+    height: auto;
+}
+.animation-clock image.clockwise{
+    -webkit-animation: antiClockwiseSpin 20s infinite linear;
+    animation: antiClockwiseSpin 20s infinite linear;
+        transform-box: fill-box;
+    transform-origin: center;
+  width:120px;
+  height:120px;
+ 
+ }
+ .animation-clock image{
+    -webkit-animation: clockwiseSpin 20s infinite linear;
+    animation: clockwiseSpin 20s infinite linear;
+    transform-box: fill-box;
+    transform-origin: center;
+    width: 250px;
+    height: 112px;
+ } */
+ 

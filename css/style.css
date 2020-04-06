@@ -185,6 +185,7 @@ input,button,textarea,button:focus,textarea:focus{
             .ml-33{
                 margin-left: 33px;
             }
+        }
 
         @media(min-width:767px){
         .ml-54{
@@ -328,12 +329,14 @@ input,button,textarea,button:focus,textarea:focus{
     background: #5963a3;
     margin: 0px auto;
 }
-
-@media(min-width:767px){
 .client-element{
-    padding: 0px 60px;
+    padding: 0px 20px;
     }
-}
+@media(min-width:767px){
+    .client-element{
+        padding: 0px 60px;
+        }
+    } 
 .client-block {
     background: #fff;
     text-align: center;
@@ -354,17 +357,26 @@ input,button,textarea,button:focus,textarea:focus{
 }
 
 .client-element .slick-prev{
-    left: 30px;
+    left: 10px;
     border-right: 20px solid white;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
 }
 .client-element .slick-next{
-    right:30px;
+    right:10px;
     border-left: 20px solid white;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
 }
+@media(min-width:767px){
+    .client-element .slick-prev{
+        left: 30px;
+       
+    }
+    .client-element .slick-next{
+        right:30px;
+    }
+    }
 .client-element .slick-prev:before,.client-element .slick-next:before{
     font-size:0px;
 }

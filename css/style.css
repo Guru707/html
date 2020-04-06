@@ -180,9 +180,11 @@ input,button,textarea,button:focus,textarea:focus{
       .ml-9{
           margin-left: 9px;
       }
-      .ml-33{
-          margin-left: 33px;
-        }
+      
+        @media(min-width:767px){
+            .ml-33{
+                margin-left: 33px;
+            }
 
         @media(min-width:767px){
         .ml-54{
@@ -327,8 +329,10 @@ input,button,textarea,button:focus,textarea:focus{
     margin: 0px auto;
 }
 
+@media(min-width:767px){
 .client-element{
     padding: 0px 60px;
+    }
 }
 .client-block {
     background: #fff;

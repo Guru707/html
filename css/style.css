@@ -95,7 +95,7 @@ input,button,textarea,button:focus,textarea:focus{
     transform-origin: center;
 }
 
- image{
+.antiClockwiseSpin img{
     -webkit-animation: antiClockwiseSpin 20s infinite linear;
     animation: antiClockwiseSpin 20s infinite linear;
         transform-box: fill-box;

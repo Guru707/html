@@ -1,3 +1,4 @@
+$(function(){
 $('.client-element').slick({
   dots: true,
   infinite: true,
@@ -35,3 +36,6 @@ $('.client-element').slick({
     // instead of a settings object
   ]
 });
+
+});
+

@@ -226,6 +226,7 @@ input,button,textarea,button:focus,textarea:focus{
 .shape-one{
  left: 0;
     clip-path: polygon(70% 67%, 0 66%, 19% 100%);
+    -webkit-clip-path: polygon(70% 67%, 0 66%, 19% 100%);
     top: 145px;
     display: inline-block;
    
@@ -239,10 +240,12 @@ input,button,textarea,button:focus,textarea:focus{
 }
 .shape-one:hover{
   clip-path: polygon(100% 57%, 0 66%, 19% 100%);
+  -webkit-clip-path: polygon(100% 57%, 0 66%, 19% 100%);
    background: rgba(40, 52, 138, 1);
 }
 .shape-two{
     clip-path: polygon(2% 41%, 45% 81%, 45% 39%);
+    -webkit-clip-path: polygon(2% 41%, 45% 81%, 45% 39%);
         background: rgba(206, 214, 109, 0.80);
     left: 60px;
     top: 12px;
@@ -260,10 +263,12 @@ input,button,textarea,button:focus,textarea:focus{
 }
 .shape-two:hover{
  clip-path: polygon(2% 41%, 45% 100%, 45% 39%);
+ -webkit-clip-path: polygon(2% 41%, 45% 100%, 45% 39%);
   background: rgba(206, 214, 109, 1);
 }
 .shape-three{
   clip-path: polygon(98% 32%, 86% 55%, 25% 46%, 66% 15%);
+  -webkit-clip-path: polygon(98% 32%, 86% 55%, 25% 46%, 66% 15%);
   background: rgba(64, 190, 219, 0.80);
   right: 50px;
     top: 45px;
@@ -282,10 +287,12 @@ input,button,textarea,button:focus,textarea:focus{
 }
 .shape-three:hover{
  clip-path: polygon(98% 32%, 86% 55%, 25% 80%, 66% 15%);
+ -webkit-clip-path: polygon(98% 32%, 86% 55%, 25% 80%, 66% 15%);
  background: rgba(64, 190, 219,1);
 }
 .shape-fourth{
   clip-path: polygon(86% 84%, 9% 83%, 24% 51%, 70% 63%);
+  -webkit-clip-path: polygon(86% 84%, 9% 83%, 24% 51%, 70% 63%);
   background: rgba(243, 207, 103, 0.80);
      right: -13px;
     top: 120px;
@@ -299,6 +306,7 @@ input,button,textarea,button:focus,textarea:focus{
 }
 .shape-fourth:hover{
        clip-path: polygon(86% 84%, 18% 85%, 29% 44%, 60% 56%);
+       -webkit-clip-path: polygon(86% 84%, 18% 85%, 29% 44%, 60% 56%);
        background: rgba(243, 207, 103, 1);
 }
 .shape-fourth a {
@@ -308,6 +316,7 @@ input,button,textarea,button:focus,textarea:focus{
 }
 .shape-five{
       clip-path: polygon(73% 82%, 5% 83%, 32% 50%, 39% 50%);
+      -webkit-clip-path: polygon(73% 82%, 5% 83%, 32% 50%, 39% 50%);
         background: rgba(138, 30, 116, 0.8);
     
     right: 70px;
@@ -321,6 +330,7 @@ input,button,textarea,button:focus,textarea:focus{
 }
 .shape-five:hover{
    clip-path: polygon(86% 84%, 9% 83%, 24% 51%, 70% 63%);
+   -webkit-clip-path: polygon(86% 84%, 9% 83%, 24% 51%, 70% 63%);
    background: rgba(138, 30, 116, 1);
 }
 .shape-five a {

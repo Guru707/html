@@ -143,8 +143,8 @@ input,button,textarea,button:focus,textarea:focus{
     .svg-icon image {
      /* -webkit-animation: circleClockwiseSpin 20s infinite linear;   */
      /* animation: circleClockwiseSpin 20s infinite linear; */     
-    width: 100%;
-    height: 100%;
+     width: 160px;
+     height: 160px;
     transform-origin: center center;
   transform-box: fill-box;
   animation-duration: 15s;
